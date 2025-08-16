@@ -1,0 +1,62 @@
+{
+  "name": "@titenq/conventional-commits",
+  "version": "1.0.0",
+  "description": "Interactive CLI for creating Conventional Commits with emojis. A development dependency that standardizes Git commit messages through guided prompts.",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "bin": {
+    "conventional-commits": "bin/cli.js",
+    "conventional-commits-init": "bin/init.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "tsx bin/cli.js",
+    "commit": "tsx src/index.ts",
+    "prepare": "husky",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "dev-dependency",
+    "cli",
+    "git-hooks",
+    "conventional-commits",
+    "emoji-commits",
+    "commit-helper",
+    "git-workflow",
+    "husky",
+    "commitizen",
+    "git-standardization"
+  ],
+  "author": "TitenQ <titenq@gmail.com> (https://github.com/titenq)",
+  "homepage": "https://github.com/titenq/conventional-commits#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/titenq/conventional-commits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/titenq/conventional-commits/issues"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "husky": "^9.1.7",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "execa": "^9.6.0",
+    "inquirer": "^12.9.2"
+  },
+  "peerDependencies": {
+    "husky": "^9.1.7"
+  }
+}

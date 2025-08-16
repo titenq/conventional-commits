@@ -1,0 +1,1 @@
+tsx src/index.ts "$1" < /dev/tty
