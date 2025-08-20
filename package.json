@@ -46,6 +46,7 @@
   },
   "license": "GPL-3.0",
   "devDependencies": {
+    "@titenq/conventional-commits": "^1.0.0",
     "@types/node": "^24.2.1",
     "husky": "^9.1.7",
     "tsx": "^4.20.4",
