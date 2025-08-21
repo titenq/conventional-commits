@@ -147,3 +147,13 @@ npm uninstall @titenq/conventional-commits husky
 ## 📜 License
 
 This project is licensed under the GPL3.0 License - see the [LICENSE](LICENSE.txt) file for details.
+
+
+<!-- Stargazers generated automatically with npx @titenq/stargazers -->
+## ⭐ Stargazers
+
+[<img src="https://avatars.githubusercontent.com/u/86478864?v=4&s=80" width="80" height="80" alt="marcio11102005" title="marcio11102005" />](https://github.com/marcio11102005)
+[<img src="https://avatars.githubusercontent.com/u/156971190?v=4&s=80" width="80" height="80" alt="AdrianoLink-DataScience" title="AdrianoLink-DataScience" />](https://github.com/AdrianoLink-DataScience)
+[<img src="https://avatars.githubusercontent.com/u/173114153?v=4&s=80" width="80" height="80" alt="Tutuixa" title="Tutuixa" />](https://github.com/Tutuixa)
+[<img src="https://avatars.githubusercontent.com/u/108964822?v=4&s=80" width="80" height="80" alt="eriveltondasilva" title="eriveltondasilva" />](https://github.com/eriveltondasilva)
+
